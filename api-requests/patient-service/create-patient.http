@@ -1,0 +1,13 @@
+### Creates new patient entity
+POST http://lb-b9487654.elb.localhost.localstack.cloud:4000/patients
+Content-Type: application/json
+
+{
+  "name": "John Doe with billing account",
+  "email": "kafka_test_billing_account1244@gmail.com",
+  "address": "123 main street22",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
+
+###
